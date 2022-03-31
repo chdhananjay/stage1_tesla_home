@@ -1,0 +1,83 @@
+
+
+ #header{
+    width:101%;
+    height:720px;
+    background-image:url(images/The-Tale-of-Tesla-scaled.jpg);
+    background-color:(0,0,0,0.5);
+    background-blend-mode:  multiply;
+    background-position:center;
+    background-size:cover;
+    font-family: verdana;
+}
+.logo{
+    height:20px;
+    width:8%;
+    margin-top:1%;
+    margin-left:1%;
+    cursor:pointer;
+    position:fixed;
+    
+}
+nav{
+    position:fixed;
+    margin-top:-1%;
+    margin-left:-1%;
+    width:100%;
+    display:flex;
+    align-items:center;
+}
+nav ul{
+    flex: 1;
+    text-align:center;
+}
+nav ul li{
+    display:inline-block;
+    margin:14px 0px;
+}
+nav ul li a{
+    text-decoration:none;
+    color:black;
+    
+}
+nav a{
+    
+    margin:0px 6px;
+    text-decoration:none;
+    color:black;
+}
+nav .btn{
+    color:black;
+    text-decoration: none;
+    border: 1px solid white;
+    border-radius: 30px;
+    margin-right:0%;
+    padding:8px 22px;
+
+}
+.info{
+    width:100%;
+    padding:0 7%;
+    display: flex;
+    align-items: center;
+    color:white;
+    position:fixed;
+    bottom: 50px;
+    left:0;
+
+} 
+.info div{
+    margin:0 20px; 
+}
+.info div h2{
+    font-size:30px;
+    font-weight:400; 
+    
+}
+.info .line{
+  
+    background: white;
+    height:4px;
+    margin-right:600px;
+    
+}
